@@ -4,7 +4,12 @@
 	"description": "A software testing course using TestCafe",
 	"main": "index.js",
 	"scripts": {
-		"test": "testcafe chrome:headless tests/*"
+		"test": "testcafe chrome:headless tests/*",
+		"test:screenshots": "testcafe chrome:headless tests/* -s takeOnFails=true",
+		"test:chrome": "testcafe chrome tests/*",
+		"test:chrome:emulation": "testcafe chrome:emulation:device=iphone X tests/*",
+		"test:firefox": "testcafe firefox tests/*",
+		"test:edge": "testcafe edge tests/*"
 	},
 	"repository": {
 		"type": "git",
