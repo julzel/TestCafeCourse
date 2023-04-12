@@ -1,0 +1,29 @@
+{
+	"name": "testcafe_course",
+	"version": "1.0.0",
+	"description": "A software testing course using TestCafe",
+	"main": "index.js",
+	"scripts": {
+		"test": "testcafe chrome:headless tests/*"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/julzel/TestCafeCourse.git"
+	},
+	"keywords": [
+		"TestCafe",
+		"Testing",
+		"e2e",
+		"Automation"
+	],
+	"author": "jusher22@gmail.com",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/julzel/TestCafeCourse/issues"
+	},
+	"homepage": "https://github.com/julzel/TestCafeCourse#readme",
+	"dependencies": {
+		"prettier": "^2.8.7",
+		"testcafe": "^2.5.0"
+	}
+}
